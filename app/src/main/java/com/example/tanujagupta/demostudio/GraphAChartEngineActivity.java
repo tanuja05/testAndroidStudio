@@ -40,7 +40,7 @@ public class GraphAChartEngineActivity extends Activity {
     }
     // scattered graph  testing studio okkkkkk
     // check it on git
-    
+
     public void scatterGraphHandler (View view)
     {
     	ScatterGraph scatter = new ScatterGraph();
