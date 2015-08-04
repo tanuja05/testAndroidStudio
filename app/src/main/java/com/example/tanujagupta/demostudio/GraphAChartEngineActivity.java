@@ -38,7 +38,9 @@ public class GraphAChartEngineActivity extends Activity {
     	Intent lineIntent = pie.getIntent(GraphAChartEngineActivity.this);
         startActivity(lineIntent);
     }
-    // scattered graph
+    // scattered graph  testing studio okkkkkk
+    // check it on git
+    
     public void scatterGraphHandler (View view)
     {
     	ScatterGraph scatter = new ScatterGraph();
