@@ -21,7 +21,7 @@ public class GraphAChartEngineActivity extends Activity {
         startActivity(lineIntent);
     }
 
-
+//bar chart
 
     public void barGraphHandler (View view)
     {
@@ -29,6 +29,8 @@ public class GraphAChartEngineActivity extends Activity {
     	Intent lineIntent = bar.getIntent(GraphAChartEngineActivity.this);
         startActivity(lineIntent);
     }
+    //pi chart
+
     
     public void pieGraphHandler (View view)
     {
@@ -36,7 +38,7 @@ public class GraphAChartEngineActivity extends Activity {
     	Intent lineIntent = pie.getIntent(GraphAChartEngineActivity.this);
         startActivity(lineIntent);
     }
-    
+    // scattered graph
     public void scatterGraphHandler (View view)
     {
     	ScatterGraph scatter = new ScatterGraph();
